@@ -267,29 +267,7 @@ footer {
     grid-column-end: 3;
   }
 }
-@media(max-width: 479px){
-  .logo img {
-   width: 35px;
- }
- .pills > div span {
-  font-size: 10px;
-  }
 
-  .popular {
-    gap: 10px; 
-  }
-
-  .cards {
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 200px repeat(4, auto-fit);
-
-  }
-  #banner {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
-
-}
 @media (min-width: 768px){
   .navbar{
     flex-direction: row;
